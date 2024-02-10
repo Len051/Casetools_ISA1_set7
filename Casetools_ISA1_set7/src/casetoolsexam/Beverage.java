@@ -10,4 +10,8 @@ public class Beverage {
 		Beverage tea=new Beverage("hot");
 		System.out.println("tea is"+tea.type);
 	}
+	String getBeverage() {
+		return type;
+		
+	}
 }
